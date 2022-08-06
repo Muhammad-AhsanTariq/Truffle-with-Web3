@@ -10,6 +10,7 @@ Most Ethereum libraries and tools are written in JavaScript, and so is **Hardhat
 
 ```
 $ npm install -g truffle
+$ npx truffle init
 
 ```
 
@@ -23,10 +24,10 @@ CONTRACT_ADDRESS=""
 
 ### Compiling contracts
 
-To compile the contract run `npx hardhat compile` in your terminal. The `compile` task is one of the built-in tasks.
+To compile the contract run `npx truffle compile` in your terminal. The `compile` task is one of the built-in tasks.
 
 ```
-$ npx hardhat compile
+$ npx truffle compile
 Compiling 1 file with 0.7.3
 Compilation finished successfully
 ```
@@ -35,10 +36,10 @@ Compilation finished successfully
 
 The contract has been successfully compiled and is ready to be used.
 
-Now, deploy this contract to rinkeby testnet. Run the deployment script deploy.js present in the scripts folder, using following command:
+Now, deploy this contract to rinkeby testnet. Run the deployment script, using following command:
 
 ```
-$ npx hardhat run scripts/deploy.js
+$ npx truffle migrate --network rinkeby
 Contract deployed successfully
 ```
 
