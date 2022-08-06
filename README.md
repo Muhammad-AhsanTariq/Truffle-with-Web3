@@ -1,15 +1,15 @@
 # Truffle-with-Web3
 
-# Tutorial for hardhat-deploy
+# Tutorial for truffle-deploy
 
 # 1. Setting up the environment
 
-Most Ethereum libraries and tools are written in JavaScript, and so is **Hardhat**. If you're not familiar with Node.js, it's a JavaScript runtime built on Chrome's V8 JavaScript engine. It's the most popular solution to run JavaScript outside of a web browser and **Hardhat** is built on top of it.
+Most Ethereum libraries and tools are written in JavaScript, and so is **Hardhat** and **truffle**. If you're not familiar with Node.js, it's a JavaScript runtime built on Chrome's V8 JavaScript engine. It's the most popular solution to run JavaScript outside of a web browser and **Hardhat** and **truffle** is built on top of it.
 
 ### Installing
 
 ```
-$ npm i 
+$ npm install -g truffle
 
 ```
 
