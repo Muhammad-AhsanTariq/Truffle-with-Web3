@@ -50,16 +50,16 @@ Add your CONTRACT_ABI in both scripts file
 
 ### Sending transaction to blockchain 
 
-Send the transaction using ether-js. Run the node-js script sendTransaction.js present in the scripts folder, using following command:
+Send the transaction using **Web3**. Run the node-js script sendTransaction.js present in the scripts folder, using following command:
 
 ```
-$ node sendTransaction.js 
+$ node sendTx.js 
 Tx is Successfull
 ```
 
 ### Getting transaction from blockchain
 
-Get the transaction using ether-js. Run the node-js script getTransaction.js present in the scripts folder, using following command:
+Get the transaction using **Web3**. Run the node-js script getTransaction.js present in the scripts folder, using following command:
 
 ```
 $ node getTransaction.js 
