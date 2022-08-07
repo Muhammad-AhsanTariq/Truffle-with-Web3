@@ -36,10 +36,10 @@ Compilation finished successfully
 
 The contract has been successfully compiled and is ready to be used.
 
-Now, deploy this contract to rinkeby testnet. Run the deployment script, using following command:
+Now, deploy this contract to rinkeby or ropsten testnet. Run the deployment script, using following command:
 
 ```
-$ npx truffle migrate --network rinkeby
+$ npx truffle migrate --network ropsten
 Contract deployed successfully
 ```
 
